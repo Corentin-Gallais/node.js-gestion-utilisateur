@@ -1,0 +1,26 @@
+{
+	"name": "gestion-utilisateurs",
+	"version": "1.0.0",
+	"description": "Backend d'authentification pour application Vue.js",
+	"main": "src/server.ts",
+	"scripts": {
+		"start": "node dist/server.js",
+		"dev": "ts-node src/server.ts",
+		"build": "tsc"
+	},
+	"dependencies": {
+		"bcrypt": "^6.0.0",
+		"dotenv": "^17.2.3",
+		"express": "^5.1.0",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.19.1"
+	},
+	"devDependencies": {
+		"@types/bcrypt": "^5.0.2",
+		"@types/express": "^4.17.21",
+		"@types/jsonwebtoken": "^9.0.5",
+		"@types/node": "^20.10.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	}
+}
